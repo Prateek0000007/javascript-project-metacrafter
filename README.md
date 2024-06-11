@@ -1,4 +1,4 @@
- Explaination of code:
+Explaination of code:
 
 1) const myNFTS = [];
 This line initializes an empty array named myNFTS which will be used to store the minted NFTs.
