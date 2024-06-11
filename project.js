@@ -30,19 +30,23 @@ console.log("minted"+user_name);
 function listNFTs () {
     for(let i=0;i<myNFTS.length;i++)
         {
-            console.log(myNFTS[i]);
+            console.log("\nuser_name : " + myNFTS[i].name);
+            console.log("user_age : " + myNFTS[i].age);
+            console.log("profession : " + myNFTS[i].profession);
+            console.log("stipend : " + myNFTS[i].stipend);
         }
 
 }
 
 // print the total number of NFTs we have minted to the console
 function getTotalSupply() {
-return myNFTS.length;
+console.log("\n" + myNFTS.length);
 }
 
 // call your functions below this line
 
-mintNFT("PRATEEK","20","STUDENT","20000");
-mintNFT("AYUSH","20","STUDENT","18000");
+mintNFT("PRATEEK","20","Maths_Tutor","20000");
+mintNFT("AYUSH","20","Teacher","18000");
+mintNFT("Ashutosh","21","Tech Employee","35000");
 listNFTs();
 getTotalSupply();
